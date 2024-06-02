@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+}
+
+.buyurtma .getForm .getForm__btn, .step .step__btn, .xizmatlar__btns .xizmatlar__btn, .hero .hero__left .hero__btn, .nav .header__btn .header__button {
+  border: 1px solid transparent;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #00BAFC;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buyurtma .getForm .getForm__name::-webkit-input-placeholder,
+.buyurtma .getForm .getForm__tel::-webkit-input-placeholder, .buyurtma .getForm .getForm__name, .buyurtma .getForm .getForm__tel, .buyurtma .getForm .getForm__select, .buyurtma .buyurtma__head .buyurtma__desc, .step .step__list .step__item .step__item__text p, .step .step__head .step__desc, .xizmatlar__btns .xizmatlar__link, .xizmatlar__text .xizmatlar__desc, .hero .hero__left .hero__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.df {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.nav {
+  padding: 0 100px;
+  justify-content: space-between;
+}
+.nav .header__right {
+  gap: 8px;
+}
+.nav .header__right .header__list {
+  list-style: none;
+}
+.nav .header__btn .header__button {
+  font-size: 15px;
+}
+
+.header__item {
+  padding: 16px;
+}
+.header__item .header__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.hero {
+  padding: 80px 100px;
+  gap: 172px;
+}
+.hero .hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.hero .hero__left .hero__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+}
+.hero .hero__left .hero__btn {
+  width: 240px;
+}
+
+.xizmatlar__text {
+  text-align: center;
+  padding-top: 50px;
+}
+.xizmatlar__text .xizmatlar__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+.xizmatlar__text .xizmatlar__desc {
+  padding: 16px 0;
+}
+
+.xizmatlar__list {
+  padding: 0 100px;
+  display: flex;
+  gap: 48px 70px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.xizmatlar__list .xizmatlar__item {
+  padding: 24px 0;
+  text-align: center;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+.xizmatlar__list .xizmatlar__item img {
+  padding: 0 54px 16px;
+}
+.xizmatlar__list .xizmatlar__item .xizmatlar__item__title {
+  padding-bottom: 12px;
+}
+
+.xizmatlar__btns {
+  padding-top: 40px;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.xizmatlar__btns .xizmatlar__link {
+  color: #00BAFC;
+}
+
+.step {
+  text-align: center;
+  padding: 56px 0;
+}
+.step .step__head {
+  padding-bottom: 16px;
+}
+.step .step__head .step__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  padding-bottom: 16px;
+}
+.step .step__list {
+  display: flex;
+  align-items: center;
+  justify-content: starts;
+  gap: 48px;
+  flex-direction: column;
+}
+.step .step__list .step__item {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.step .step__list .step__item .step__item__text {
+  text-align: start;
+}
+.step .step__list .step__item .step__item__text h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  padding-top: 8px;
+}
+.step .step__btn {
+  margin-top: 40px;
+}
+
+.buyurtma {
+  background-color: #00BAFC;
+  padding: 56px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.buyurtma .buyurtma__head {
+  text-align: center;
+}
+.buyurtma .buyurtma__head .buyurtma__title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+}
+.buyurtma .buyurtma__head .buyurtma__desc {
+  color: #fff;
+  padding: 16px 0;
+}
+.buyurtma .getForm {
+  padding: 24px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border-radius: 5px;
+  position: relative;
+}
+.buyurtma .getForm .getForm__name, .buyurtma .getForm .getForm__tel, .buyurtma .getForm .getForm__select {
+  padding: 16px;
+  outline: none;
+  border: none;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  width: 300px;
+}
+.buyurtma .getForm .getForm__select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+}
+.buyurtma .getForm .icons {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  right: 24px;
+  top: 168px;
+  background-color: #00BAFC;
+  border-radius: 5px;
+  pointer-events: none;
+  cursor: pointer;
+}
+.buyurtma .getForm .icons i {
+  color: #fff;
+  font-size: 40px;
+}
+.buyurtma .getForm .getForm__name::-webkit-input-placeholder,
+.buyurtma .getForm .getForm__tel::-webkit-input-placeholder {
+  color: #000;
+}
+.buyurtma .getForm .getForm__btn {
+  width: 170px;
+}
+
+footer {
+  display: flex;
+  padding-top: 30px;
+  background-color: #191919;
+}
+footer .footer-one {
+  padding: 0 100px 0 100px;
+}
+footer .footer-one .footer__one__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  padding-bottom: 16px;
+  color: #fff;
+}
+footer .footer-one .footer__one__desc {
+  color: #fff;
+  font-size: 15px;
+}
+footer .footer-two {
+  padding: 0 87px 56px 0;
+}
+footer .footer-two .footer__two__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  padding-bottom: 16px;
+  color: #fff;
+}
+footer .footer-two .footer__two__link {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 8px;
+}
+footer .footer-two .footer__two__link:last-child {
+  padding-bottom: 0px;
+}
+footer .footer-three .footer__three__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  padding-bottom: 16px;
+}
+footer .footer-three .box-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+footer .footer-three .box-item img {
+  padding-right: 8px;
+}
+footer .footer-three .box-item h5 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}/*# sourceMappingURL=style.css.map */
