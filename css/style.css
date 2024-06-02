@@ -37,6 +37,7 @@
   width: 100%;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+  z-index: 99;
 }
 
 .nav {
@@ -51,6 +52,12 @@
 }
 .nav .header__btn .header__button {
   font-size: 15px;
+  transition: 0.5s;
+}
+.nav .header__btn .header__button:hover {
+  background-color: transparent;
+  border-color: #00BAFC;
+  color: #00BAFC;
 }
 
 .header__item {
@@ -77,6 +84,12 @@
 }
 .hero .hero__left .hero__btn {
   width: 240px;
+  transition: 0.5s;
+}
+.hero .hero__left .hero__btn:hover {
+  background-color: transparent;
+  border-color: #00BAFC;
+  color: #00BAFC;
 }
 
 .xizmatlar__text {
@@ -119,6 +132,14 @@
   justify-content: center;
   padding-bottom: 50px;
 }
+.xizmatlar__btns .xizmatlar__btn {
+  transition: 0.5s;
+}
+.xizmatlar__btns .xizmatlar__btn:hover {
+  background-color: transparent;
+  border-color: #00BAFC;
+  color: #00BAFC;
+}
 .xizmatlar__btns .xizmatlar__link {
   color: #00BAFC;
 }
@@ -159,6 +180,12 @@
 }
 .step .step__btn {
   margin-top: 40px;
+  transition: 0.5s;
+}
+.step .step__btn:hover {
+  background-color: transparent;
+  border-color: #00BAFC;
+  color: #00BAFC;
 }
 
 .buyurtma {
@@ -226,6 +253,12 @@
 }
 .buyurtma .getForm .getForm__btn {
   width: 170px;
+  transition: 0.5s;
+}
+.buyurtma .getForm .getForm__btn:hover {
+  background-color: transparent;
+  border-color: #00BAFC;
+  color: #00BAFC;
 }
 
 footer {
@@ -275,6 +308,7 @@ footer .footer-three .footer__three__title {
   padding-bottom: 16px;
 }
 footer .footer-three .box-item {
+  cursor: pointer;
   display: flex;
   align-items: center;
   padding-bottom: 8px;

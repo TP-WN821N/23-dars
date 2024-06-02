@@ -32,6 +32,7 @@
   position: fixed;
   width: 100%;
   backdrop-filter: blur(10px);
+  z-index: 99;
 }
 .nav {
   padding: 0 100px;
@@ -46,6 +47,12 @@
     .header__button {
       @extend %button;
       font-size: 15px;
+      transition: 0.5s;
+    }
+    .header__button:hover {
+      background-color: transparent;
+      border-color: #00BAFC;
+      color: #00BAFC;
     }
   }
 }
@@ -72,6 +79,12 @@
     .hero__btn {
       @extend %button;
       width: 240px;
+      transition: 0.5s;
+    }
+    .hero__btn:hover {
+      background-color: transparent;
+      border-color: #00BAFC;
+      color: #00BAFC;
     }
   }
 }
@@ -113,7 +126,13 @@
   padding-bottom: 50px;
   .xizmatlar__btn {
     @extend %button;
+    transition: 0.5s;
   }
+  .xizmatlar__btn:hover {
+      background-color: transparent;
+      border-color: #00BAFC;
+      color: #00BAFC;
+    }
   .xizmatlar__link {
     color: #00BAFC;
     @extend %text_desc;
@@ -159,7 +178,13 @@
   .step__btn {
     margin-top: 40px;
     @extend %button;
+    transition: 0.5s;
   }
+  .step__btn:hover {
+      background-color: transparent;
+      border-color: #00BAFC;
+      color: #00BAFC;
+    }
 }
 .buyurtma {
   background-color: #00BAFC;
@@ -224,6 +249,12 @@
     .getForm__btn {
       @extend %button;
       width: 170px;
+      transition: 0.5s;
+    }
+    .getForm__btn:hover {
+      background-color: transparent;
+      border-color: #00BAFC;
+      color: #00BAFC;
     }
   }
 }
@@ -274,6 +305,7 @@ footer {
         padding-bottom: 16px;
      }
      .box-item {
+      cursor: pointer;
         img {
            padding-right: 8px;
         }
